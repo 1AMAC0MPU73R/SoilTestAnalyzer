@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{766BCE72-BD2E-4DA8-ACB2-90CDADB1D482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoilTestReader", "SoilTestReader", "{03A316CB-7161-48CA-980A-30CA17B243E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoilTestReader", "src\SoilTestReader\SoilTestReader.csproj", "{69C69725-F016-4310-9B92-2AA3D18CD7D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C69725-F016-4310-9B92-2AA3D18CD7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C69725-F016-4310-9B92-2AA3D18CD7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C69725-F016-4310-9B92-2AA3D18CD7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C69725-F016-4310-9B92-2AA3D18CD7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03A316CB-7161-48CA-980A-30CA17B243E3} = {766BCE72-BD2E-4DA8-ACB2-90CDADB1D482}
+		{69C69725-F016-4310-9B92-2AA3D18CD7D7} = {03A316CB-7161-48CA-980A-30CA17B243E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE249EC-EE2B-4FDB-AD1E-14E06F0DCB04}
+	EndGlobalSection
+EndGlobal
